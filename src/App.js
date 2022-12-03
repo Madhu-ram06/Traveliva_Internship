@@ -6,6 +6,7 @@ import ResortVariants from './ResortVariants';
 import './App.css';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import AboutUs from './AboutUs';
+import Booking from './Booking';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path='/about' element={<AboutUs/>}/>
     <Route path='/listofhotels' element={<ListOfHotels/>} />
     <Route path='/resortvariants' element={<ResortVariants/>} />
+    <Route path='/booking' element={<Booking/>}/>
     <Route path="/*" element={<Home/>} />
       
     </Routes>

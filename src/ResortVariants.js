@@ -17,7 +17,7 @@ import trustpilot from './images/trustpilot.jpg'
 const ResortVariants=()=>{
     return(
         <div id="resort-container">
-            `<div id="one">
+            <div id="one">
                 <div id="textid">
                     <p id="ddd">Casa Lake Resort</p>
                     <p>We provide high quality services !</p>

@@ -14,7 +14,7 @@ const Navbar=()=>  {
                 <Link id="nv" to='/listofhotels'>Hotels</Link>
                 <span id="nv">Blog</span>
                 
-                <span id="nv">Booking</span>
+                <Link id="nv" to='/booking'>Booking</Link>
                 <Link id="nv" to='/resortvariants'>Resorts</Link>
                 
                 </nav>
